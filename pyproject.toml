@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "usde"
+version = "0.1.0"
+description = ""
+authors = ["trangnv <nvtrang91@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+polars = "^1.13.1"
+requests = "^2.32.3"
+sqlalchemy = "^2.0.36"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
